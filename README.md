@@ -58,10 +58,6 @@ To modify:
 
 ## ACKNOWLEDGEMENTS
 
-IP's used in this project:
-* Microblaze
-* XADC
-* SPI
-* TFT
-* MIG
-* Slice
+We would like to thank Professor Chow for providing the Xilinx FPGA boards and Pmods we used during this project, as well as for his help in mapping the XADC addresses.
+
+We would also like to thank our TA, Fernando, for his continuous help and support throughout this project.
