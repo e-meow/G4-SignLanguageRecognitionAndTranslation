@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="ASL_wrapper_hw_platform_0-target"/>
+	<item value="ASL_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="ASL_wrapper.mmi" key="ASL_wrapper_hw_platform_0-bmmFile"/>
+	<item value="Auto Detect" key="ASL_wrapper_hw_platform_0-device"/>
+	<item value="ASL_wrapper.bit" key="ASL_wrapper_hw_platform_0-bitFile"/>
+	<item value="bootloop" key="ASL_wrapper_hw_platform_0-ASL_i/microblaze_0-initElf"/>
+</section>

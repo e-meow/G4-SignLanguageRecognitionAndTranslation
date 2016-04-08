@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon Mar 28 02:17:39 2016
+# Process ID: 6496
+# Log file: c:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ACCEL/managed_ip_project/managed_ip_project.tmp/accel_v1_0_v1_0_project/ACCEL_v1_0_v1_0_project.runs/synth_1/ACCEL_v1_0.vds
+# Journal file: c:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ACCEL/managed_ip_project/managed_ip_project.tmp/accel_v1_0_v1_0_project/ACCEL_v1_0_v1_0_project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ACCEL_v1_0.tcl -notrace

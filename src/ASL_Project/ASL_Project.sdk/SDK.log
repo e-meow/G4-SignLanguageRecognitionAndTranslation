@@ -1,0 +1,28 @@
+12:19:15 INFO  : Processing command line option -hwspec C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ASL_Project/ASL_Project.sdk/ASL_wrapper.hdf.
+12:19:21 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:19:25 INFO  : XSDB server has started successfully.
+12:22:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:22:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646022A" && level==0} -index 0' command is executed.
+12:22:04 INFO  : FPGA configured successfully with bitstream "C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ASL_Project/ASL_Project.sdk/ASL_wrapper_hw_platform_0/download.bit"
+12:22:45 INFO  : Processor reset is completed for microblaze_0
+12:23:28 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:23:32 INFO  : Processor reset is completed for microblaze_0
+12:31:24 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:31:25 INFO  : Processor reset is completed for microblaze_0
+12:39:01 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:39:04 INFO  : Processor reset is completed for microblaze_0
+12:45:18 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:45:19 INFO  : Processor reset is completed for microblaze_0
+12:46:25 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:46:26 INFO  : Processor reset is completed for microblaze_0
+12:55:58 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:55:59 INFO  : Processor reset is completed for microblaze_0
+12:58:13 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+12:58:14 INFO  : Processor reset is completed for microblaze_0
+13:06:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:06:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292646022A" && level==0} -index 0' command is executed.
+13:06:09 INFO  : FPGA configured successfully with bitstream "C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ASL_Project/ASL_Project.sdk/ASL_wrapper_hw_platform_0/download.bit"
+13:06:13 INFO  : Processor reset is completed for microblaze_0
+13:07:32 INFO  : Processor reset is completed for microblaze_0
+13:07:40 INFO  : Processor reset is completed for microblaze_0
+21:21:31 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,297 @@
+
+*** Running vivado
+    with args -log HEX_v1_0.vds -m64 -mode batch -messageDb vivado.pb -notrace -source HEX_v1_0.tcl
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.1 (64-bit)
+  **** SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+  **** IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source HEX_v1_0.tcl -notrace
+Command: synth_design -top HEX_v1_0 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 262.309 ; gain = 86.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'HEX_v1_0' [c:/users/emily/documents/document/2015-2016/ece532/project/hex/ip_repo/hex_1.0/hdl/HEX_v1_0.v:4]
+	Parameter C_HEX_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_HEX_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'HEX_v1_0_HEX_AXI' [c:/users/emily/documents/document/2015-2016/ece532/project/hex/ip_repo/hex_1.0/hdl/HEX_v1_0_HEX_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'DigitToSeg' [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/DigitToSeg.v:23]
+INFO: [Synth 8-638] synthesizing module 'sevensegdecoder' [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/sevensegdecoder.v:21]
+INFO: [Synth 8-226] default block is never used [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/sevensegdecoder.v:28]
+INFO: [Synth 8-256] done synthesizing module 'sevensegdecoder' (1#1) [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/sevensegdecoder.v:21]
+INFO: [Synth 8-638] synthesizing module 'mux4_4bus' [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/mux4_4bus.v:21]
+INFO: [Synth 8-256] done synthesizing module 'mux4_4bus' (2#1) [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/mux4_4bus.v:21]
+INFO: [Synth 8-638] synthesizing module 'segClkDevider' [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/segClkDevider.v:21]
+	Parameter constantNumber bound to: 10000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'segClkDevider' (3#1) [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/segClkDevider.v:21]
+INFO: [Synth 8-638] synthesizing module 'counter3bit' [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/counter3bit.v:1]
+INFO: [Synth 8-256] done synthesizing module 'counter3bit' (4#1) [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/counter3bit.v:1]
+INFO: [Synth 8-638] synthesizing module 'decoder_3_8' [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/decoder3_8.v:21]
+INFO: [Synth 8-256] done synthesizing module 'decoder_3_8' (5#1) [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/decoder3_8.v:21]
+INFO: [Synth 8-256] done synthesizing module 'DigitToSeg' (6#1) [C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/HEX/ip_repo/HEX_1.0/hdl/DigitToSeg.v:23]
+INFO: [Synth 8-226] default block is never used [c:/users/emily/documents/document/2015-2016/ece532/project/hex/ip_repo/hex_1.0/hdl/HEX_v1_0_HEX_AXI.v:225]
+INFO: [Synth 8-226] default block is never used [c:/users/emily/documents/document/2015-2016/ece532/project/hex/ip_repo/hex_1.0/hdl/HEX_v1_0_HEX_AXI.v:366]
+INFO: [Synth 8-256] done synthesizing module 'HEX_v1_0_HEX_AXI' (7#1) [c:/users/emily/documents/document/2015-2016/ece532/project/hex/ip_repo/hex_1.0/hdl/HEX_v1_0_HEX_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'HEX_v1_0' (8#1) [c:/users/emily/documents/document/2015-2016/ece532/project/hex/ip_repo/hex_1.0/hdl/HEX_v1_0.v:4]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 296.527 ; gain = 120.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 296.527 ; gain = 120.641
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:21 . Memory (MB): peak = 296.527 ; gain = 120.641
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "clk_div" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "dig0" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:22 . Memory (MB): peak = 314.625 ; gain = 138.738
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 6     
+	                4 Bit    Registers := 10    
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	  16 Input      7 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sevensegdecoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      7 Bit        Muxes := 1     
+Module segClkDevider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module counter3bit 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+Module HEX_v1_0_HEX_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     33 Bit       Adders := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 10    
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:28 . Memory (MB): peak = 422.438 ; gain = 246.551
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "XLXI_47/count" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "XLXI_47/clk_div" won't be mapped to RAM because address size (32) is larger than maximum supported(18)
+INFO: [Synth 8-5545] ROM "dig0" won't be mapped to RAM because address size (33) is larger than maximum supported(18)
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:28 . Memory (MB): peak = 428.648 ; gain = 252.762
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:28 . Memory (MB): peak = 428.648 ; gain = 252.762
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (HEX_v1_0_HEX_AXI_inst/\axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (HEX_v1_0_HEX_AXI_inst/\axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (\axi_bresp_reg[1] ) is unused and will be removed from module HEX_v1_0_HEX_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_bresp_reg[0] ) is unused and will be removed from module HEX_v1_0_HEX_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[1] ) is unused and will be removed from module HEX_v1_0_HEX_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_araddr_reg[0] ) is unused and will be removed from module HEX_v1_0_HEX_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[1] ) is unused and will be removed from module HEX_v1_0_HEX_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_awaddr_reg[0] ) is unused and will be removed from module HEX_v1_0_HEX_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_rresp_reg[1] ) is unused and will be removed from module HEX_v1_0_HEX_AXI.
+WARNING: [Synth 8-3332] Sequential element (\axi_rresp_reg[0] ) is unused and will be removed from module HEX_v1_0_HEX_AXI.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 549.215 ; gain = 373.328
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 549.215 ; gain = 373.328
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 549.215 ; gain = 373.328
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 549.215 ; gain = 373.328
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:43 . Memory (MB): peak = 669.734 ; gain = 493.848
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:45 . Memory (MB): peak = 670.207 ; gain = 494.320
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 670.207 ; gain = 494.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 670.207 ; gain = 494.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 670.207 ; gain = 494.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 670.207 ; gain = 494.320
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   275|
+|3     |LUT1   |   132|
+|4     |LUT2   |   189|
+|5     |LUT3   |   361|
+|6     |LUT4   |   267|
+|7     |LUT5   |   324|
+|8     |LUT6   |   816|
+|9     |MUXF7  |     4|
+|10    |FDRE   |   270|
+|11    |IBUF   |    47|
+|12    |OBUF   |    57|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------+-----------------+------+
+|      |Instance                |Module           |Cells |
++------+------------------------+-----------------+------+
+|1     |top                     |                 |  2743|
+|2     |  HEX_v1_0_HEX_AXI_inst |HEX_v1_0_HEX_AXI |  2040|
+|3     |    segment1            |DigitToSeg       |   146|
+|4     |      XLXI_47           |segClkDevider    |   113|
+|5     |      XLXI_49           |counter3bit      |    33|
++------+------------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:47 . Memory (MB): peak = 670.207 ; gain = 494.320
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 670.207 ; gain = 461.859
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:51 . Memory (MB): peak = 670.207 ; gain = 494.320
+INFO: [Project 1-571] Translating synthesized netlist

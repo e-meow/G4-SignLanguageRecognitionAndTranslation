@@ -1,0 +1,32 @@
+13:16:31 **** Auto Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:208:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:216:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:261:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14313	   1480	   2160	  17953	   4621	ASL.elf
+'Finished building: ASL.elf.size'
+' '
+
+13:16:50 Build Finished (took 19s.189ms)
+

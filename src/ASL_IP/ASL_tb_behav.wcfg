@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ASL_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ASL_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="group13" type="group">
+      <obj_property name="label">tb</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/resetn" type="logic">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/sensor1" type="array">
+         <obj_property name="ElementShortName">sensor1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor1[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/sensor2" type="array">
+         <obj_property name="ElementShortName">sensor2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor2[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/sensor3" type="array">
+         <obj_property name="ElementShortName">sensor3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor3[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/sensor4" type="array">
+         <obj_property name="ElementShortName">sensor4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor4[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/sensor5" type="array">
+         <obj_property name="ElementShortName">sensor5[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor5[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/letter" type="array">
+         <obj_property name="ElementShortName">letter[5:0]</obj_property>
+         <obj_property name="ObjectShortName">letter[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/letter_exp" type="array">
+         <obj_property name="ElementShortName">letter_exp[5:0]</obj_property>
+         <obj_property name="ObjectShortName">letter_exp[5:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/letter_valid" type="logic">
+         <obj_property name="ElementShortName">letter_valid</obj_property>
+         <obj_property name="ObjectShortName">letter_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/letter_unknown" type="logic">
+         <obj_property name="ElementShortName">letter_unknown</obj_property>
+         <obj_property name="ObjectShortName">letter_unknown</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group54" type="group">
+      <obj_property name="label">ASL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/clock" type="logic">
+         <obj_property name="ElementShortName">clock</obj_property>
+         <obj_property name="ObjectShortName">clock</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/resetn" type="logic">
+         <obj_property name="ElementShortName">resetn</obj_property>
+         <obj_property name="ObjectShortName">resetn</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/start" type="logic">
+         <obj_property name="ElementShortName">start</obj_property>
+         <obj_property name="ObjectShortName">start</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/sensor1" type="array">
+         <obj_property name="ElementShortName">sensor1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor1[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/sensor2" type="array">
+         <obj_property name="ElementShortName">sensor2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor2[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/sensor3" type="array">
+         <obj_property name="ElementShortName">sensor3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor3[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/sensor4" type="array">
+         <obj_property name="ElementShortName">sensor4[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor4[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/sensor5" type="array">
+         <obj_property name="ElementShortName">sensor5[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sensor5[7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/x_coord" type="array">
+         <obj_property name="ElementShortName">x_coord[8:0]</obj_property>
+         <obj_property name="ObjectShortName">x_coord[8:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/y_coord" type="array">
+         <obj_property name="ElementShortName">y_coord[8:0]</obj_property>
+         <obj_property name="ObjectShortName">y_coord[8:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/letter" type="array">
+         <obj_property name="ElementShortName">letter[5:0]</obj_property>
+         <obj_property name="ObjectShortName">letter[5:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/letter_valid" type="logic">
+         <obj_property name="ElementShortName">letter_valid</obj_property>
+         <obj_property name="ObjectShortName">letter_valid</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/letter_unknown" type="logic">
+         <obj_property name="ElementShortName">letter_unknown</obj_property>
+         <obj_property name="ObjectShortName">letter_unknown</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/state" type="array">
+         <obj_property name="ElementShortName">state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">state[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/next_state" type="array">
+         <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group79" type="group">
+      <obj_property name="label">param</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/thumb_straight" type="logic">
+         <obj_property name="ElementShortName">thumb_straight</obj_property>
+         <obj_property name="ObjectShortName">thumb_straight</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/thumb_curve1" type="logic">
+         <obj_property name="ElementShortName">thumb_curve1</obj_property>
+         <obj_property name="ObjectShortName">thumb_curve1</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/thumb_curve2" type="logic">
+         <obj_property name="ElementShortName">thumb_curve2</obj_property>
+         <obj_property name="ObjectShortName">thumb_curve2</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/thumb_very_curve" type="logic">
+         <obj_property name="ElementShortName">thumb_very_curve</obj_property>
+         <obj_property name="ObjectShortName">thumb_very_curve</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/index_straight" type="logic">
+         <obj_property name="ElementShortName">index_straight</obj_property>
+         <obj_property name="ObjectShortName">index_straight</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/index_curve1" type="logic">
+         <obj_property name="ElementShortName">index_curve1</obj_property>
+         <obj_property name="ObjectShortName">index_curve1</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/index_curve2" type="logic">
+         <obj_property name="ElementShortName">index_curve2</obj_property>
+         <obj_property name="ObjectShortName">index_curve2</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/index_very_curve" type="logic">
+         <obj_property name="ElementShortName">index_very_curve</obj_property>
+         <obj_property name="ObjectShortName">index_very_curve</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/middle_straight" type="logic">
+         <obj_property name="ElementShortName">middle_straight</obj_property>
+         <obj_property name="ObjectShortName">middle_straight</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/middle_curve1" type="logic">
+         <obj_property name="ElementShortName">middle_curve1</obj_property>
+         <obj_property name="ObjectShortName">middle_curve1</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/middle_curve2" type="logic">
+         <obj_property name="ElementShortName">middle_curve2</obj_property>
+         <obj_property name="ObjectShortName">middle_curve2</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/middle_very_curve" type="logic">
+         <obj_property name="ElementShortName">middle_very_curve</obj_property>
+         <obj_property name="ObjectShortName">middle_very_curve</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/ring_straight" type="logic">
+         <obj_property name="ElementShortName">ring_straight</obj_property>
+         <obj_property name="ObjectShortName">ring_straight</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/ring_curve1" type="logic">
+         <obj_property name="ElementShortName">ring_curve1</obj_property>
+         <obj_property name="ObjectShortName">ring_curve1</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/ring_curve2" type="logic">
+         <obj_property name="ElementShortName">ring_curve2</obj_property>
+         <obj_property name="ObjectShortName">ring_curve2</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/ring_very_curve" type="logic">
+         <obj_property name="ElementShortName">ring_very_curve</obj_property>
+         <obj_property name="ObjectShortName">ring_very_curve</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pinky_straight" type="logic">
+         <obj_property name="ElementShortName">pinky_straight</obj_property>
+         <obj_property name="ObjectShortName">pinky_straight</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pinky_curve1" type="logic">
+         <obj_property name="ElementShortName">pinky_curve1</obj_property>
+         <obj_property name="ObjectShortName">pinky_curve1</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pinky_curve2" type="logic">
+         <obj_property name="ElementShortName">pinky_curve2</obj_property>
+         <obj_property name="ObjectShortName">pinky_curve2</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pinky_very_curve" type="logic">
+         <obj_property name="ElementShortName">pinky_very_curve</obj_property>
+         <obj_property name="ObjectShortName">pinky_very_curve</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pos_horiz" type="logic">
+         <obj_property name="ElementShortName">pos_horiz</obj_property>
+         <obj_property name="ObjectShortName">pos_horiz</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pos_vert" type="logic">
+         <obj_property name="ElementShortName">pos_vert</obj_property>
+         <obj_property name="ObjectShortName">pos_vert</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pos_tilt" type="logic">
+         <obj_property name="ElementShortName">pos_tilt</obj_property>
+         <obj_property name="ObjectShortName">pos_tilt</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pos_down" type="logic">
+         <obj_property name="ElementShortName">pos_down</obj_property>
+         <obj_property name="ObjectShortName">pos_down</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pos_inward" type="logic">
+         <obj_property name="ElementShortName">pos_inward</obj_property>
+         <obj_property name="ObjectShortName">pos_inward</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pos_outward" type="logic">
+         <obj_property name="ElementShortName">pos_outward</obj_property>
+         <obj_property name="ObjectShortName">pos_outward</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/thumb_stat" type="logic">
+         <obj_property name="ElementShortName">thumb_stat</obj_property>
+         <obj_property name="ObjectShortName">thumb_stat</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/index_stat" type="logic">
+         <obj_property name="ElementShortName">index_stat</obj_property>
+         <obj_property name="ObjectShortName">index_stat</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/middle_stat" type="logic">
+         <obj_property name="ElementShortName">middle_stat</obj_property>
+         <obj_property name="ObjectShortName">middle_stat</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/ring_stat" type="logic">
+         <obj_property name="ElementShortName">ring_stat</obj_property>
+         <obj_property name="ObjectShortName">ring_stat</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/pinky_stat" type="logic">
+         <obj_property name="ElementShortName">pinky_stat</obj_property>
+         <obj_property name="ObjectShortName">pinky_stat</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group56" type="group">
+      <obj_property name="label">state</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/S_RESET" type="array">
+         <obj_property name="ElementShortName">S_RESET[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_RESET[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/S_INIT" type="array">
+         <obj_property name="ElementShortName">S_INIT[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_INIT[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/S_1" type="array">
+         <obj_property name="ElementShortName">S_1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_1[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ASL_tb/ASL_inst/S_DONE" type="array">
+         <obj_property name="ElementShortName">S_DONE[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_DONE[1:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

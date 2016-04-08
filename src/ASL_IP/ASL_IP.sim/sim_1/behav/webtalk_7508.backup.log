@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon Apr 04 12:59:57 2016
+# Process ID: 7068
+# Log file: C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ASL_IP/ASL_IP.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ASL_IP/ASL_IP.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ASL_IP/ASL_IP.sim/sim_1/behav/xsim.dir/ASL_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Emily/Documents/Document/2015-2016/ECE532/Project/ASL_IP/ASL_IP.sim/sim_1/behav/xsim.dir/ASL_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Apr 04 13:00:05 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 60.594 ; gain = 0.012
+INFO: [Common 17-206] Exiting Webtalk at Mon Apr 04 13:00:05 2016...

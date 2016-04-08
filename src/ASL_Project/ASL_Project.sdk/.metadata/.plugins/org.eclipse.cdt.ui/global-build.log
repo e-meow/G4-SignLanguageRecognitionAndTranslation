@@ -1,0 +1,327 @@
+12:19:45 **** Build of project ASL_bsp ****
+make -k all 
+"Running Make include in microblaze_0/libsrc/ACCEL_v1_0/src"
+make -C microblaze_0/libsrc/ACCEL_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/ADC_v1_0/src"
+make -C microblaze_0/libsrc/ADC_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/ASL_v1_0/src"
+make -C microblaze_0/libsrc/ASL_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/cpu_v2_3/src"
+make -C microblaze_0/libsrc/cpu_v2_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/HEX_v1_0/src"
+make -C microblaze_0/libsrc/HEX_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/standalone_v5_0/src"
+make -C microblaze_0/libsrc/standalone_v5_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/tft_v5_0/src"
+make -C microblaze_0/libsrc/tft_v5_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in microblaze_0/libsrc/ACCEL_v1_0/src"
+make -C microblaze_0/libsrc/ACCEL_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ACCEL..."
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/ADC_v1_0/src"
+make -C microblaze_0/libsrc/ADC_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ADC..."
+"Running Make libs in microblaze_0/libsrc/ASL_v1_0/src"
+make -C microblaze_0/libsrc/ASL_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling ASL..."
+"Running Make libs in microblaze_0/libsrc/bram_v4_0/src"
+make -C microblaze_0/libsrc/bram_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling bram"
+"Running Make libs in microblaze_0/libsrc/cpu_v2_3/src"
+make -C microblaze_0/libsrc/cpu_v2_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu"
+"Running Make libs in microblaze_0/libsrc/gpio_v4_0/src"
+make -C microblaze_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in microblaze_0/libsrc/HEX_v1_0/src"
+make -C microblaze_0/libsrc/HEX_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling HEX..."
+"Running Make libs in microblaze_0/libsrc/standalone_v5_0/src"
+make -C microblaze_0/libsrc/standalone_v5_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone";
+"Running Make libs in microblaze_0/libsrc/tft_v5_0/src"
+make -C microblaze_0/libsrc/tft_v5_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling tft"
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_0/src"
+make -C microblaze_0/libsrc/uartlite_v3_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.5 -mhard-float -mlittle-endian -mno-xl-soft-div -mno-xl-soft-mul -mxl-barrel-shift" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartlite"
+'Finished building libraries'
+12:20:35 **** Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:203:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:211:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:256:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14317	   1480	   2160	  17957	   4625	ASL.elf
+'Finished building: ASL.elf.size'
+' '
+12:22:39 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+12:23:17 **** Auto Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:203:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:211:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:256:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14129	   1480	   2167	  17776	   4570	ASL.elf
+'Finished building: ASL.elf.size'
+' '
+12:23:27 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+12:31:13 **** Auto Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:203:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:211:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:256:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14325	   1480	   2160	  17965	   462d	ASL.elf
+'Finished building: ASL.elf.size'
+' '
+12:31:23 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+12:39:00 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+12:44:59 **** Auto Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:203:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:211:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:256:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14309	   1480	   2160	  17949	   461d	ASL.elf
+'Finished building: ASL.elf.size'
+' '
+12:45:17 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+12:46:11 **** Auto Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:203:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:211:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:256:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14313	   1480	   2160	  17953	   4621	ASL.elf
+'Finished building: ASL.elf.size'
+' '
+12:46:24 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+12:55:43 **** Auto Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:208:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:216:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:261:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19277	   1480	   2167	  22924	   598c	ASL.elf
+'Finished building: ASL.elf.size'
+' '
+12:55:57 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+12:58:02 **** Auto Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:208:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:216:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:261:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14313	   1480	   2160	  17953	   4621	ASL.elf
+'Finished building: ASL.elf.size'
+' '
+12:58:12 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+13:06:11 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+13:07:30 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+13:07:31 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+13:07:39 **** Incremental Build of configuration Debug for project ASL ****
+make all 
+make: Nothing to be done for `all'.
+13:16:31 **** Auto Build of configuration Debug for project ASL ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../ASL_bsp/microblaze_0/include -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'init_vga':
+../src/helloworld.c:208:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c:216:3: warning: 'return' with a value, in function returning void
+   return XST_FAILURE;
+   ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:261:6: warning: unused variable 'i' [-Wunused-variable]
+  int i, j;
+      ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ASL.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../ASL_bsp/microblaze_0/lib -mlittle-endian -mxl-barrel-shift -mno-xl-soft-div -mcpu=v9.5 -mno-xl-soft-mul -mhard-float -Wl,--no-relax -o "ASL.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ASL.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ASL.elf  |tee "ASL.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  14313	   1480	   2160	  17953	   4621	ASL.elf
+'Finished building: ASL.elf.size'
+' '

@@ -1,0 +1,47 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.1 (win64) Build 1215546 Mon Apr 27 19:22:08 MDT 2015
+| Date         : Mon Apr 04 11:37:23 2016
+| Host         : Emily-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'xadc_wiz_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of xadc_wiz_0 (xilinx.com:ip:xadc_wiz:3.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'xadc_wiz_0'. These changes may impact your design.
+
+
+-upgrade has removed port 'convst_in'
+-upgrade has removed port 'convstclk_in'
+-upgrade has removed port 'jtagbusy_out'
+-upgrade has removed port 'jtaglocked_out'
+-upgrade has removed port 'jtagmodified_out'
+-upgrade has removed port 'muxaddr_out'
+-upgrade has removed port 'ot_out'
+-upgrade has removed port 'user_temp_alarm_out'
+-upgrade has removed port 'vbram_alarm_out'
+-upgrade has removed port 'vccaux_alarm_out'
+-upgrade has removed port 'vccddro_alarm_out'
+-upgrade has removed port 'vccint_alarm_out'
+-upgrade has removed port 'vccpaux_alarm_out'
+-upgrade has removed port 'vccpint_alarm_out'
+-upgrade has added port 'vauxn10'
+-upgrade has added port 'vauxn11'
+-upgrade has added port 'vauxn2'
+-upgrade has added port 'vauxn3'
+-upgrade has added port 'vauxp10'
+-upgrade has added port 'vauxp11'
+-upgrade has added port 'vauxp2'
+-upgrade has added port 'vauxp3'
+

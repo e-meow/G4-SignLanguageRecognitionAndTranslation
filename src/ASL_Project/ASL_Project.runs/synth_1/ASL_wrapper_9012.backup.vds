@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2015.1 (64-bit)
+# SW Build 1215546 on Mon Apr 27 19:22:08 MDT 2015
+# IP Build 1209967 on Tue Apr 21 11:39:20 MDT 2015
+# Start of session at: Mon Mar 28 12:51:13 2016
+# Process ID: 1184
+# Log file: W:/Project/ASL_Project/ASL_Project.runs/synth_1/ASL_wrapper.vds
+# Journal file: W:/Project/ASL_Project/ASL_Project.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ASL_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/Project/HEX/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/Project/ASL_IP/ip_repo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'w:/Project/ADC/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/DESL_Installs/Xilinx-Vivado-15/Vivado/2015.1/data/ip'.
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 328.133 ; gain = 119.156
+Command: synth_design -top ASL_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-1223] The version limit for your license is '2015.12' and will expire in -88 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:487]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:488]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:490]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:492]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:495]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:504]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:505]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:506]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:507]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:508]
+WARNING: [Synth 8-2507] parameter declaration becomes local in ASL_v1_0_ASL_AXI with formal parameter declaration list [w:/Project/ASL_Project/ASL_Project.srcs/sources_1/ipshared/xilinx.com/asl_v1_0/dda4b67c/hdl/ASL_v1_0_ASL_AXI.v:510]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:30 . Memory (MB): peak = 406.961 ; gain = 231.918
+---------------------------------------------------------------------------------
